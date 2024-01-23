@@ -4,7 +4,7 @@
 int max(int,int);
 int min(int,int);
 
-int main()
+int main(int argc, char *argv[])
 {
     int n1,n2;
     printf("enter 2 numbers to be the range\n");
