@@ -49,49 +49,49 @@ int main(int argc, char *argv[])
     int smaller=min(n1,n2);
 
     //print all the Armstrong numbers
-    printf("The Armstrong numbers are: ");
+    printf("The Armstrong numbers are:");
     for(int i=smaller;i<=bigger;i++)
     {
         if(isArmstrong(i)==1)
         {
-            printf("%d ",i);
+            printf(" %d",i);
         }
     }
 
     printf("\n");
 
     //print all the Palindrome numbers
-    printf("The Palindromes are: ");
+    printf("The Palindromes are:");
     for(int l=smaller;l<=bigger;l++)
     {
             
          if(isPalindrome(l)==1)
         {
-            printf("%d ",l);
+            printf(" %d",l);
         }
     }
 
     printf("\n");
 
     //print all the Prime numbers
-    printf("The Prime numbers are: ");
+    printf("The Prime numbers are:");
     for(int j=smaller;j<=bigger;j++)
     {       
         if(isPrime(j)==1)
         {
-            printf("%d ",j);
+            printf(" %d",j);
         }
     }
 
     printf("\n");
 
     //print all the Strong numbers
-    printf("The Strong numbers are: ");
+    printf("The Strong numbers are:");
     for(int h=smaller;h<=bigger;h++)
     {  
         if(isStrong(h)==1)
         {
-            printf("%d ",h);
+            printf(" %d",h);
         }
     }
 
