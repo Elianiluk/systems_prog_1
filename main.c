@@ -47,82 +47,51 @@ int main()
 
     int bigger=max(n1,n2);
     int smaller=min(n1,n2);
-    int count=0;
 
     //print all the Armstrong numbers
-    printf("All the Armstrong numbers: ");
+    printf("The Armstrong numbers are: ");
     for(int i=smaller;i<=bigger;i++)
     {
-        if(isArmstrong(i)==1 && count==0)
+        if(isArmstrong(i)==1)
         {
-            printf("%d",i);
-            count++;
-        }
-            
-        else if(isArmstrong(i)==1)
-        {
-            printf(", ");
-            printf("%d",i);
+            printf("%d ",i);
         }
     }
 
     printf("\n");
-    int count1=0;
 
     //print all the Palindrome numbers
-    printf("All the Palindrome numbers: ");
+    printf("The Palindromes are: ");
     for(int l=smaller;l<=bigger;l++)
     {
-        if(isPalindrome(l)==1 && count==0)
-        {
-            printf("%d",l);
-            count1++;
-        }
             
-        else if(isPalindrome(l)==1)
+         if(isPalindrome(l)==1)
         {
-            printf(", ");
-            printf("%d",l);
+            printf("%d ",l);
         }
     }
 
     printf("\n");
-    int count2=0;
 
     //print all the Prime numbers
-    printf("All the Prime numbers: ");
+    printf("The Prime numbers are: ");
     for(int j=smaller;j<=bigger;j++)
-    {
-        if(isPrime(j)==1 && count==0)
+    {       
+        if(isPrime(j)==1)
         {
-            printf("%d",j);
-            count2++;
-        }
-            
-        else if(isPrime(j)==1)
-        {
-            printf(", ");
-            printf("%d",j);
+            printf("%d ",j);
         }
     }
 
     printf("\n");
-    int count3=0;
 
     //print all the Strong numbers
-    printf("All the Strong numbers: ");
+    printf("The Strong numbers are: ");
     for(int h=smaller;h<=bigger;h++)
-    {
-        if(isStrong(h)==1 && count3==0)
+    {  
+        if(isStrong(h)==1)
         {
-            printf("%d",h);
-            count3++;
-        }
-            
-        else if(isStrong(h)==1)
-        {
-            printf(", ");
-            printf("%d",h);
+            printf("%d ",h);
         }
     }
 
