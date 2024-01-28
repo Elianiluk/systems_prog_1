@@ -25,13 +25,13 @@ maindloop: $(OBJECTS_MAIN)
 	$(CC) $(FLAGS) -o maindloop $(OBJECTS_MAIN) ./libclassloop.so
 maindrec: $(OBJECTS_MAIN)
 	$(CC) $(FLAGS) -o maindrec $(OBJECTS_MAIN) ./libclassrec.so
-main.o: main.c numClass.h
+main.o: main.c NumClass.h
 	$(CC) $(FLAGS) -c main.c
-basicClassification.o:  basicClassification.c numClass.h
+basicClassification.o:  basicClassification.c NumClass.h
 	$(CC) $(FLAGS) -fPIC -c basicClassification.c
-advancedClassificationLoop.o:  advancedClassificationLoop.c numClass.h
+advancedClassificationLoop.o:  advancedClassificationLoop.c NumClass.h
 	$(CC) $(FLAGS) -fPIC -c advancedClassificationLoop.c	
-advancedClassificationRecursion.o:  advancedClassificationRecursion.c numClass.h
+advancedClassificationRecursion.o:  advancedClassificationRecursion.c NumClass.h
 	$(CC) $(FLAGS) -fPIC -c advancedClassificationRecursion.c	
 
 .PHONY:	all clean	
