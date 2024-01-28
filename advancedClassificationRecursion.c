@@ -1,4 +1,4 @@
-#include "numClass.h"
+#include "NumClass.h"
 
 int isPalindromeHelp(int,int);
 int isArmstrongHelp(int,int,int);
