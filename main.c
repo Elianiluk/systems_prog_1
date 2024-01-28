@@ -1,4 +1,4 @@
-#include "numClass.h"
+#include "NumClass.h"
 #include <stdio.h>
 
 int max(int,int);
