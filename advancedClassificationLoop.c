@@ -1,4 +1,4 @@
-#include "numClass.h"
+#include "NumClass.h"
 
 int isDigit(int);
 int firstDigit(int);
